@@ -10,5 +10,5 @@ oauth = requests_oauthlib.OAuth1(
     "<ACCESS_TOKEN_SECRET>"
 )
 
-# response = requests.get(url, auth=oauth)
-# print(response.json())
+response = requests.get(url, auth=oauth)
+print(response.json())
