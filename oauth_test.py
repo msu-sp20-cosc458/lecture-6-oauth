@@ -1,5 +1,5 @@
 # oauth_test.py
-import requests_oauthlib, requests
+import requests, requests_oauthlib
 
 url = "https://api.twitter.com/1.1/account/verify_credentials.json"
 
